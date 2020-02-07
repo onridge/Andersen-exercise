@@ -1,4 +1,4 @@
-const intersection = require('../intersection');
+import intersection from '../intersection';
 
 test('should be an array with same elements', () => {
     const arr1 = [1, 2, 3, 4, 5];

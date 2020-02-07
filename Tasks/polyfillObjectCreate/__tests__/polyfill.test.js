@@ -1,4 +1,4 @@
-const polyfillObjectCreate = require('../polyfill');
+import polyfillObjectCreate from '../polyfill';
 
 test('should return Object with prototype Object', () => {
     const newObject = polyfillObjectCreate(Object.prototype);

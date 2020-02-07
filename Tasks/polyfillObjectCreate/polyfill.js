@@ -4,4 +4,4 @@ function polyfillObjectCreate(objectPrototype) {
     return new F();
 }
 
-module.exports = polyfillObjectCreate;
+export default polyfillObjectCreate;

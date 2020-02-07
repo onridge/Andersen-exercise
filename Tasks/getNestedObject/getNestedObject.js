@@ -10,4 +10,4 @@ function getNestedObject(str) {
     }, null);
 }
 
-module.exports = getNestedObject;
+export default getNestedObject;

@@ -1,4 +1,4 @@
-const curryingSum = require('../curryingSum');
+import curryingSum from '../curryingSum';
 
 test('should be 11 after calling function', () => {
     expect(curryingSum(1)(2)(3) + 5).toBe(11);

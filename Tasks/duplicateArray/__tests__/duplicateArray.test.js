@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-const duplicateArray = require('../duplicateArray');
+import duplicateArray from '../duplicateArray';
 
 test('should be return array after calling method', () => {
     const arr = [1, 2, 3].duplicate();

@@ -1,4 +1,4 @@
-const spaceBetweenWords = require('../spaceBetweenWords');
+import spaceBetweenWords from '../spaceBetweenWords';
 
 test('should be added space between word', () => {
     expect(spaceBetweenWords('hello world')).toBe('h e l l o  w o r l d');

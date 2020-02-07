@@ -5,4 +5,4 @@ function spaceBetweenWords(str) {
         .join('  ');
 }
 
-module.exports = spaceBetweenWords;
+export default spaceBetweenWords;

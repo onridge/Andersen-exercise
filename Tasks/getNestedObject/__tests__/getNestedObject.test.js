@@ -1,4 +1,4 @@
-const getNestedObject = require('../getNestedObject');
+import getNestedObject from '../getNestedObject';
 
 test('should be Object after calling function', () => {
     expect(typeof getNestedObject('')).toBe('object');

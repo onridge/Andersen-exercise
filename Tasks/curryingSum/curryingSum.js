@@ -12,4 +12,4 @@ function curryingSum(num) {
     return secondFn;
 }
 
-module.exports = curryingSum;
+export default curryingSum;

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "study project",
   "scripts": {
-    "lint": "eslint Tasks/**/*.js",
-    "lint:fix": "eslint --fix Tasks/**/*.js",
+    "lint": "eslint tasks/**/*.js",
+    "lint:fix": "eslint --fix tasks/**/*.js",
     "test": "jest"
   },
   "husky": {
@@ -21,7 +21,7 @@
       "<rootDir>/(node_modules)/"
     ],
     "collectCoverageFrom": [
-      "Tasks/**/*.{js}"
+      "tasks/**/*.{js}"
     ]
   },
   "dependencies": {},

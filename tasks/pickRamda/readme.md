@@ -1,0 +1,1 @@
+Function pick from library 'ramda'
